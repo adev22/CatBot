@@ -12,6 +12,13 @@ add bot to your discord channel [here](https://discord.com/api/oauth2/authorize?
     git clone https://github.com/adev22/CatBot.git <foldername>
 ```
 
+- Set Discord token & Cat API in env file
+
+```bash
+    TOKEN =
+    APIKEY =
+```
+
 - Running
 
 ```bash
@@ -32,7 +39,7 @@ List all command
     !help
 ```
 
-Display random cat picture
+Display random cat image
 
 ```bash
     !cat
@@ -42,6 +49,12 @@ Send Message "Hello,World"
 
 ```bash
     !hello
+```
+
+Search cat
+
+```bash
+    !search <name>
 ```
 
 ### Contribute
