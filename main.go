@@ -88,12 +88,17 @@ func messageCreate(s *discordgo.Session, m *discordgo.MessageCreate) {
 				},
 				{
 					Name:   prefix + "hello",
-					Value:  "send message Hello, World",
+					Value:  "Send message Hello, World",
 					Inline: true,
 				},
 				{
 					Name:   prefix + "cat",
 					Value:  "Display a random cat image.",
+					Inline: true,
+				},
+				{
+					Name:   prefix + "search <name>",
+					Value:  "Search cat information",
 					Inline: true,
 				},
 			},
@@ -189,5 +194,4 @@ func messageCreate(s *discordgo.Session, m *discordgo.MessageCreate) {
 			}
 		}
 	}
-
 }
